@@ -17,6 +17,8 @@ public class PlayerManager : NetworkBehaviour {
     public float currentHP;
 
 
+
+
     // Use this for initialization
     void Start () {
 
