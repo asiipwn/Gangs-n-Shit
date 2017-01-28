@@ -2789,7 +2789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 95843905912190916}
-  m_ParameterSendBits: 15
+  m_ParameterSendBits: 31
   param0: 
   param1: 
   param2: 
@@ -2818,6 +2818,12 @@ MonoBehaviour:
   gravity: 20
   isWalking: 0
   isSprinting: 0
+  isJumpingOverObsticle: 0
+  obsticleJumpSpeed: 0
+  obsticalH: 0
+  obsticalL: 0
+  curJumpstate: 0
+  endPos: {x: 0, y: 0, z: 0}
 --- !u!114 &114520281339885422
 MonoBehaviour:
   m_ObjectHideFlags: 1
